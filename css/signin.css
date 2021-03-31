@@ -9,14 +9,6 @@
     padding-bottom: 40px;
 }
 
-.sign {
-    /* padding-top: 40px; */
-    color: #8C55AA;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    font-size: 23px;
-}
-
 input {
     width: 76%;
     color: rgb(38, 50, 56);

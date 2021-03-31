@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    color: #000000a3;
 }
 body {
     background-color: #F3EBF6;
@@ -12,8 +13,8 @@ body {
 nav {
     width: 100%;
     background-color: #716fe6;
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
 }
 
 .nav {
@@ -32,6 +33,7 @@ nav {
 
 .nav-brand a {
     color: #FFF;
+    text-shadow: 0 0 5px #2400a6;
 }
 
 .nav-items {
@@ -48,4 +50,53 @@ nav {
 
 .nav-link.active {
     font-weight: bolder;
+    text-shadow: 0 0 5px #7f5ef7;
+}
+
+.sign {
+    padding-top: 40px;
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.sign:not(.heading) {
+    font-size: 23px;
+    padding-top: 0;
+}
+
+.heading {
+    text-shadow: 4px 4px 5px #004cff;
+    color: white;
+    font-size: xxx-large;
+}
+
+.wrapper .content {
+    padding: 4vh 4vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .content p {
+    font-size: large;
+}
+
+.wrapper .content .col {
+    width: 50%;
+    padding: 2rem 2rem;
+}
+
+.wrapper .content .col img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 550px) {
+    .wrapper .content {
+        display: block;
+    }
+
+    .wrapper .content .col {
+        width: 100%;
+    }
 }
